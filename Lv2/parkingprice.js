@@ -4,9 +4,9 @@ function solution(fees, records) {
     records = records.map(a=> a.split(' ')).sort((a,b)=>(+a[1])-(+b[1]));
     console.log(records);
     while(records.length!==0){
-        var in = records.shift();
-        arr.push(in);
-        if()
+        var shift = records.shift();
+        arr.push(shift);
+        console.log(arr)
     }
     return answer;
 }
