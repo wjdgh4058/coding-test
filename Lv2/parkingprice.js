@@ -6,7 +6,10 @@ function solution(fees, records) {
     while(records.length!==0){
         var shift = records.shift();
         arr.push(shift);
-        console.log(arr)
+        console.log(arr);
+        //if(arr[0] == 'IN' && arr[1] == 'OUT'){
+        //    
+        //}
     }
     return answer;
 }
