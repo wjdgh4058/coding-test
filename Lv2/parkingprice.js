@@ -10,6 +10,7 @@ function solution(fees, records) {
         //if(arr[0] == 'IN' && arr[1] == 'OUT'){
         //    
         //}
+        //
     }
     return answer;
 }
