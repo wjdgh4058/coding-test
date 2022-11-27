@@ -11,6 +11,7 @@ function solution(fees, records) {
        //
        //
        //
+       //
     }
     return answer;
 }
