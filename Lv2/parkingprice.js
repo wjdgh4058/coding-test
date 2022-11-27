@@ -8,7 +8,7 @@ function solution(fees, records) {
         arr.push(shift);
         console.log(arr);
         //if(arr[0] == 'IN' && arr[1] == 'OUT'){
-      
+        //
     }
     return answer;
 }
