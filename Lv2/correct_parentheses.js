@@ -16,7 +16,7 @@ function solution(s) {
       s= s.replace('()', '');
   }
   return s.length ==0 ? true:false;*/
-
+  //
   var count = 0;
   for (var str of s) {
     if (str === "(") count += 1;
