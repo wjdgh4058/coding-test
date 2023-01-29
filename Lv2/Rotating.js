@@ -19,7 +19,6 @@ function solution(s) {
       s = s.replace(/\(\)|\[\]|\{\}/g, "");
     }
 
-    //console.log(s)
     if (s.length == 0) count++;
     arr0 = arr[0];
     arr.shift();
