@@ -9,6 +9,5 @@ function solution(a, b) {
   for (var i = 0; i < a.length; i++) {
     arr.push(a[i] * b[i]);
   }
-  //console.log(arr)
   return arr.reduce((a, b) => a + b);
 }
